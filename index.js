@@ -62,3 +62,7 @@ let selection = 'name';
 person[selection] = 'Mary';
 
 console.log(person.name);
+
+// Arrays
+
+let selectedColor = [];
