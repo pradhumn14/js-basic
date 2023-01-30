@@ -26,9 +26,39 @@
 // interestRate = 1;
 // console.log(interestRate);
 
-let name = 'Pradhumn';          // String Literal
-let age = 30;                   // Number Literal
-let isApproved = true;          // Boolean Literal
+// let name = 'Pradhumn';          // String Literal
+// let age = 30;                   // Number Literal
+// let isApproved = true;          // Boolean Literal
 
-let firstName = undefined;      // not so common to use undefined
-let selectedColor = null;
+// let firstName = undefined;      // not so common to use undefined
+// let selectedColor = null;
+
+// let name = 'Pradhumn';
+// let age = 19;
+
+let person = {
+    name: 'Pradhumn',
+    age: 19
+};
+
+console.log(person);
+
+// Dot notation
+
+person.name = 'John';
+
+console.log(person.name);
+
+// Bracket Notation
+
+// person['name'] = 'Mary';
+
+// console.log(person.name);
+
+// both are same
+
+let selection = 'name';
+
+person[selection] = 'Mary';
+
+console.log(person.name);
