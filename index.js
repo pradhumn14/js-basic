@@ -26,9 +26,9 @@
 // interestRate = 1;
 // console.log(interestRate);
 
-let name = 'Pradhumn'; // String Literal
-let age = 30; // Number Literal
-let isApproved = true; // Boolean Literal
+let name = 'Pradhumn';          // String Literal
+let age = 30;                   // Number Literal
+let isApproved = true;          // Boolean Literal
 
-let firstName = undefined; // not so common to use undefined
+let firstName = undefined;      // not so common to use undefined
 let selectedColor = null;
