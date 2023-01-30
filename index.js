@@ -65,4 +65,33 @@ console.log(person.name);
 
 // Arrays
 
-let selectedColor = [];
+let selectedColor = ['red', 'blue'];
+console.log(selectedColor);
+console.log(selectedColor[0]);
+selectedColor[2] = 'green';
+console.log(selectedColor);
+selectedColor[3] = 19;
+console.log(selectedColor);
+console.log(selectedColor.length);
+
+// functions
+
+// Performing a task
+function greet(name, lastName) {
+    console.log('Hello ' + name + " " + lastName);
+}
+
+greet('John', 'Smith');
+// greet('Mary');
+
+// Calculating a value
+function square(number) {
+    return number * number;
+}
+
+// let answer = square(9);
+// console.log(answer);
+
+// OR DIRECTLY
+
+console.log(square(7));
